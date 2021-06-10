@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Survey Form</h1>
+  <main>
+    <p class="title">Let us know how can we improve Webify</p>
+    <form action="#" onsubmit="return submitForm(this)">
+      <div class="field">
+        <label for="name"><span>*</span> Name</label>
+        <div class="field-input">
+          <input id="name" type="text" placeholder="Enter your name">
+        </div>
+      </div>
+      <div class="field">
+        <label for="email"><span>*</span> Email</label>
+        <div class="field-input">
+          <input id="email" type="email" placeholder="Enter your email">
+        </div>
+      </div>
+      <div class="field">
+        <label for="age"><span>*</span> Age</label>
+        <div class="field-input">
+          <input id="age" type="number" placeholder="Enter your age">
+        </div>
+      </div>
+      <div class="field">
+        <label for="role">
+          Which option best describes your current role?
+        </label>
+        <div class="field-input">
+          <select id="role">
+            <option value="" selected disabled>Please select an option</option>
+            <option value="student">Student</option>
+            <option value="passed">Passed Out</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="recommend">
+          <span>*</span> How likely is that you would recommend Webify to a friend?
+        </label>
+        <div class="field-input">
+          <input type="radio" name="recommend" id="definitely" value="Definitely">
+          <label for="definitely">Definitely</label>
+          <br>
+          <input type="radio" name="recommend" id="maybe" value="Maybe">
+          <label for="maybe">Maybe</label>
+          <br>
+          <input type="radio" name="recommend" id="notsure" value="Not Sure">
+          <label for="notsure">Not Sure</label>
+        </div>
+      </div>
+      <div class="field">
+        <label for="improve">
+          Things to be improved in the future
+        </label>
+        <div class="field-input">
+          <input type="checkbox" name="improve" id="tasks" value="Tasks">
+          <label for="tasks">Tasks</label>
+          <br>
+          <input type="checkbox" name="improve" id="meetings" value="Meetings">
+          <label for="meetings">Meetings</label>
+        </div>
+      </div>
+      <div class="field">
+        <button class="btn">Submit</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

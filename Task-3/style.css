@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#top-section {
+  background: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png") center center/cover no-repeat;
+  color: white;
+  height: 450px;
+  opacity: 0.9;
+  padding: 10%;
+}
+
+#top-section > p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 2% 10%;
+}
+
+#top-section > button {
+  padding: 2%;
+}
+
+#description {
+  padding: 3%;
+  margin-bottom: 1rem;
+}
+
+#description > div > h2 {
+  margin: 0 0 2rem;
+}
+
+#card-section > div {
+  background-color: #333;
+}
+
+#card-section > div > div {
+  padding: 3% 15%;
+}
+
+.card {
+  margin: 2%;
+}
+
+.card-title {
+  padding: 6% 0;
+}
+
+.card-text {
+  padding: 5% 0;
+}
+
+#mid-section {
+  padding: 3% 15%;
+}
+
+#mid-section > div > h2 {
+  margin: 2rem 0;
+}
+
+#contact {
+  color: white;
+  padding: 0 1%;
+}
+
+.colums {
+  padding: 3% 7% 1%;
+}
+
+.colums > p {
+  margin: 5%;
+}
+
+.blue-col {
+  background-color: rgb(28, 167, 231);
+}
+
+.black-col {
+  background-color: #333;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+footer > p {
+  font-size: 1.5rem;
+}
